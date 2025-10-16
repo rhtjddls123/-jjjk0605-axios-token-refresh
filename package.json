@@ -1,0 +1,40 @@
+{
+  "name": "@jjjk0605/axios-token-refresh",
+  "description": "promise-lock 기능이 포함된 axios 토큰 리프레시 인터셉터 라이브러리",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --dts --format esm,cjs --clean",
+    "prepublishOnly": "npm run build",
+    "test": "vitest"
+  },
+  "keywords": [
+    "axios",
+    "refresh",
+    "token",
+    "interceptor"
+  ],
+  "author": "jjjk0605",
+  "license": "MIT",
+  "peerDependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "axios": "^1.7.7",
+    "msw": "^2.11.5",
+    "tsup": "^8.5.0",
+    "typescript": "^5.6.3",
+    "vitest": "^3.2.4",
+    "zustand": "^5.0.8"
+  },
+  "version": "0.0.1"
+}
