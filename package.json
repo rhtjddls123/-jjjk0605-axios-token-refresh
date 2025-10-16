@@ -1,5 +1,10 @@
 {
   "name": "@jjjk0605/axios-token-refresh",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhtjddls123/-jjjk0605-axios-token-refresh.git"
+  },
   "description": "promise-lock 기능이 포함된 axios 토큰 리프레시 인터셉터 라이브러리",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -35,6 +40,5 @@
     "typescript": "^5.6.3",
     "vitest": "^3.2.4",
     "zustand": "^5.0.8"
-  },
-  "version": "0.0.1"
+  }
 }
