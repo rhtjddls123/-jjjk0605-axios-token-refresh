@@ -12,7 +12,7 @@
 ## 설치
 
 ```bash
-npm i axios-token-refresh
+npm i @jjjk0605/axios-token-refresh
 npm i axios
 ```
 
